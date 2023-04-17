@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello">Hello World</string>
+    <string name="five">5</string>
+    <string name="ten">10</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_ia_a_fragment_example">This ia a fragment example</string>
+    <string name="fragment_1">Fragment 1</string>
+    <string name="fragment_2">Fragment 2</string>
+    <string name="item_1">Item 1</string>
+    <string name="item_2">Item 2</string>
+    <string name="item_3">Item 3</string>
+    <string name="click">Click</string>
+    <string name="settings_page">Settings Page</string>
+    <string name="action_1">Action 1</string>
+    <string name="action_2">Action 2</string>
+    <string name="show_alert_dialog">Show Alert Dialog</string>
+    <string name="show_custom_dialog">Show Custom Dialog</string>
+</resources>
