@@ -15,11 +15,16 @@
         android:theme="@style/Theme.Blankactivity"
         tools:targetApi="31">
         <activity
-            android:name=".LocalDatabase"
-            android:exported="false">
+            android:name=".localdatabase.LocalDatabase"
+            android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".httpreqresponse.HttpActivity"
@@ -28,11 +33,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".recyclerview.RecyclerViewActivity"
